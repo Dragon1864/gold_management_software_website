@@ -1,1 +1,125 @@
+*{
 
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+    font-family:Segoe UI,Arial,sans-serif;
+
+}
+
+body{
+
+    background:#f4f4f4;
+
+    color:#222;
+
+    line-height:1.7;
+
+}
+
+header{
+
+    background:#0f172a;
+
+    color:white;
+
+    padding:80px 20px;
+
+    text-align:center;
+
+}
+
+header h1{
+
+    font-size:46px;
+
+    margin-bottom:20px;
+
+}
+
+header p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    font-size:18px;
+
+}
+
+.download-btn{
+
+    display:inline-block;
+
+    margin-top:35px;
+
+    padding:16px 36px;
+
+    background:#f5b700;
+
+    color:black;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.download-btn:hover{
+
+    background:#d89d00;
+
+}
+
+section{
+
+    max-width:1000px;
+
+    margin:50px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+section h2{
+
+    color:#0f172a;
+
+    margin-bottom:20px;
+
+}
+
+section ul{
+
+    margin-left:25px;
+
+}
+
+footer{
+
+    background:#0f172a;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:40px;
+
+}
